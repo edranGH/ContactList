@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingTop="12dp"
+	android:paddingBottom="12dp"
+	android:paddingLeft="20dp"
+	android:paddingRight="20dp">
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:id="@+id/linearLayout1">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="17sp"
+			android:textColor="@android:color/background_dark"
+			android:id="@+id/tvName"
+			android:layout_marginBottom="5dp"/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="15sp"
+			android:textColor="@android:color/darker_gray"
+			android:id="@+id/tvPhone" />
+	</LinearLayout>
+	<ImageView
+		android:src="@drawable/ic_email"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:id="@+id/ivEmail"
+		android:layout_marginRight="5dp"/>
+	<ImageView
+		android:src="@drawable/ic_contact"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:id="@+id/ivPhone" />
+
+</LinearLayout>

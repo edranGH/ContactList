@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">Lista kontaktów</string>
+  <string name="action_settings">Settings</string>
+  <string name="add_contact">Dodaj kontakt</string>
+  <string name="contact_edit_name">Edycja kontaktu</string>
+  <string name="name_hint">Nazwisko i imię</string>
+  <string name="email_hint">Email</string>
+  <string name="phone_hint">Numer telefonu</string>
+</resources>
